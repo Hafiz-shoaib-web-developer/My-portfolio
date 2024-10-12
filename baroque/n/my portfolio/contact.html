@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        body{
+            background-color:#13baba ;
+        }
+        .form{
+            width: fit-content;
+            height: auto;
+            font-size: larger;
+            font-weight: bold;
+            font-style:italic ;
+            color:rgba(0, 0, 0, 0.13);
+            text-align: center;
+            margin-left: 550px;
+            margin-top: 40px;
+        }
+       
+        #id{
+            margin-top: 5px;
+            padding-left: 100px;
+            width: 200px;
+            height: 50px;
+            background-color: #36313100;
+            color: white;
+            border: 5px solid white;
+        }
+        .ul{
+            color: WHITE;
+            font-weight: bold;
+            font-style: oblique;
+            font-variant: normal;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+        .button-container {
+    text-align: center;
+    justify-content: center;
+}
+
+.beautiful-button {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-top: 20PX;
+    margin-right: 80px;
+}
+
+.beautiful-button:hover {
+    background: linear-gradient(45deg, #f06595, #ff6b6b);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.beautiful-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.h1{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+.massage {
+  width: 100%; /* Full width for inputs */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 5px solid white ;
+  border-radius: 4px;
+  background-color:#13baba ;
+}
+    </style>
+</head>
+<body>
+    <h1 class="h1">Enter your Details</h1>
+      <form action="php" class="form">
+          <input type="text" placeholder="NAME" id="id">
+          <br>
+          <br>
+          <input type="text" placeholder="EMAIL" id="id">
+          <br>
+          <br>
+          <input type="text" placeholder="PHONE NUMBER" id="id">
+          <br>
+          <br>
+          <input type="text" placeholder="ADRESS" id="id">
+          <br>
+              <br>
+              <label for="message"></label>
+              <textarea id="message" name="message" rows="5" required class="massage">your massage</textarea>
+      </form>
+      <div class="button-container">
+          <button class="beautiful-button">submit</button></a></button>
+      </div>
+      </div>
+</body>
+</html>
